@@ -38,7 +38,8 @@
             font-weight: bold;
         }
         .signup-form input[type="text"],
-        .signup-form input[type="password"] {
+        .signup-form input[type="password"],
+        .signup-form input[type="email"] {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
@@ -46,7 +47,6 @@
             border-radius: 4px;
             box-sizing: border-box;
         }
-        /* 관심 카테고리 필드셋 */
         .category-fieldset {
             border: 2px solid #ccc;
             border-radius: 4px;
@@ -98,6 +98,9 @@
 
     <label for="password">비밀번호</label>
     <input type="password" id="password" name="password" placeholder="비밀번호를 입력하세요" required>
+
+    <label for="email">이메일</label>
+    <input type="email" id="email" name="email" placeholder="이메일을 입력하세요" required>
 
     <label for="nickname">닉네임</label>
     <input type="text" id="nickname" name="nickname" placeholder="닉네임을 입력하세요" required>
